@@ -3,7 +3,6 @@
 ## finds senders which match string and clean from queue 
 ## require pfdel.pl command to be installed. works with postfix
 
-TOCUT='gmail.com'
 
 read -p "String to find and cut: " strtocut 
 
